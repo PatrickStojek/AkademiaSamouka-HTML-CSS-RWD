@@ -6,3 +6,20 @@
     min-height: 50px;
 }
 
+header + .container {
+    display: flex;
+}
+
+main {
+    width: 70%;
+}
+
+section {
+    width: 30%;
+    display: block;
+}
+
+section > article {
+    margin: 20px;
+    width: calc(100% - 400px);
+}
