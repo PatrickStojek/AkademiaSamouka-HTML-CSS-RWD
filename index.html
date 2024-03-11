@@ -18,7 +18,7 @@
     <hr>
     <p class="shape-before">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi et voluptatem distinctio? Consequuntur, quidem iure quis aliquid rem tempore voluptatibus?</p>
     <hr>
-    <h2>Efficient image resolution(1 version)</h2>
+    <h2>Efficient image rendering(1 version)</h2>
     <img
     srcset="
     https://devmentor.pl/img/dm-300w.png 1.5x, 
@@ -26,5 +26,17 @@
     " 
     src="https://devmentor.pl/img/dm-logo.png"
     alt="">
+    <hr>
+    <h2>Efficient image rendering(2 version)</h2>
+    <picture>
+        <source
+            srcset="https://devmentor.pl/img/dm-600w.png"
+            media="(min-width: 400px)"
+        >
+        <source
+            srcset="https://devmentor.pl/img/dm-300w.png"
+        >
+        <img src="https://devmentor.pl/img/dm-logo.png" alt="">
+    </picture>
 </body>
 </html>
