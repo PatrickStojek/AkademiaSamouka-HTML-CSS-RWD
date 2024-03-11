@@ -13,7 +13,12 @@ h1 {
     box-shadow: 0 0 4px 4px rgba(0, 0, 0, .3);
 }
 
-p::before {
+
+.shape-before {
+    column-count: 1;
+}
+
+.shape-before::before {
     background-color: #fffbda;
     border-radius: 50%;
     content: '';
@@ -21,4 +26,7 @@ p::before {
     height: 100px;
     float: left;
     width: 100px;
+
+    shape-outside: circle();
+    margin-right: 20px;
 }
