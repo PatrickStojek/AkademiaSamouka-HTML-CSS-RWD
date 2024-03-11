@@ -12,3 +12,13 @@ h1 {
     resize: horizontal;
     box-shadow: 0 0 4px 4px rgba(0, 0, 0, .3);
 }
+
+p::before {
+    background-color: #fffbda;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 100px;
+    float: left;
+    width: 100px;
+}
