@@ -30,3 +30,12 @@ h1 {
     shape-outside: circle();
     margin-right: 20px;
 }
+
+
+.responsive-background {
+    background-image: url('https://source.unsplash.com/1r2CG6EQ4-Y/1600x900');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0;
+    padding-bottom: calc(3 / 4 * 100%);
+}
