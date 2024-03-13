@@ -1,0 +1,24 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "a-top"
+    "a-content"
+    "a-comments"
+    "a-bottom";
+}
+
+header {
+    grid-area: a-top;
+}
+
+main {
+    grid-area: a-content;
+}
+
+section {
+    grid-area: a-comments;
+}
+
+footer {
+    grid-area: a-bottom;
+}
