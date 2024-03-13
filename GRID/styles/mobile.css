@@ -1,22 +1,38 @@
+/* ./css/mobile.css */
+
 body {
     display: grid;
     grid-template-areas: 
-    "a-top"
-    "a-content"
-    "a-comments"
-    "a-bottom";
+        "a-top"
+        "a-content"
+        "a-comments"
+        "a-bottom";
+    grid-template-rows: 
+        80px 
+        minmax(calc(100vh - 80px), auto) 
+        auto 
+        auto;
 }
 
 header {
-    grid-area: a-top;
+    background-color: #ffffba;
+    grid-area: a-top;   
 }
 
 main {
-    grid-area: a-content;
+    background: #ffdfba;
+    grid-area: a-content;  
 }
 
 section {
+    border: none;
     grid-area: a-comments;
+}
+
+section > article {
+    background-color: #baffc9; 
+    margin: 20px;
+    min-height: calc(50vh - 30px);
 }
 
 footer {
