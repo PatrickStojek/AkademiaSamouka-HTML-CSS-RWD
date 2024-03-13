@@ -1,0 +1,10 @@
+header h1 {
+    text-align: center;
+}
+
+header li {
+    border: 1px solid #bbb;
+    margin: 5px;
+    padding: 5px 10px;
+    text-align: center;
+}
