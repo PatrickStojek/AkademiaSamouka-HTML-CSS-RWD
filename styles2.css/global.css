@@ -56,7 +56,7 @@ h1 {
     width: 100%; /* Default setting */
 }
 
-.iframe {
+iframe {
     border: 1px solid red;
     position: absolute;
     left: 0;
